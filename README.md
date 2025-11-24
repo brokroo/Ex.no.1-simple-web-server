@@ -95,7 +95,7 @@ simple-web-server/
 </project>
 
 ### DemoApplication.java
-
+```
 package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
@@ -107,9 +107,10 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 }
-
+```
 
 ### HelloController.java
+```
 package com.example.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -123,13 +124,13 @@ public class HelloController {
         return "Hello, Spring Boot!";
     }
 }
-
+```
 
 ### application.properties:
-
+```
  server.port=8081
 
-
+```
 
 
 Output:
